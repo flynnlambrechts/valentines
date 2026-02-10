@@ -1,10 +1,14 @@
-const repo = "valentines";
+import type { NextConfig } from "next";
 
-module.exports = {
+const repo = "valentines"; // <-- CHANGE THIS
+
+const nextConfig: NextConfig = {
+    output: "export", // REQUIRED for GitHub Pages
     basePath: `/${repo}`,
     assetPrefix: `/${repo}/`,
     images: {
-        unoptimized: true,
+        unoptimized: true, // REQUIRED
     },
 };
-module.exports = nextConfig;
+
+export default nextConfig;
