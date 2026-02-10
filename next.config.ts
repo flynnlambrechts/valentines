@@ -1,10 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: "/valentines",
-    output: "export",
+const repo = "valentines";
+
+module.exports = {
+    basePath: `/${repo}`,
+    assetPrefix: `/${repo}/`,
     images: {
         unoptimized: true,
     },
 };
-
 module.exports = nextConfig;
