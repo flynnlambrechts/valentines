@@ -35,7 +35,12 @@ export default function Valentine() {
         return (
             <>
                 <h1>Asha, Will you be my Valentine? 💘</h1>
-                <Image src="/lizard.gif" alt="test" width={400} height={300} />
+                <Image
+                    src="/valentines/lizard.gif"
+                    alt="test"
+                    width={400}
+                    height={300}
+                />
                 <div className="buttons">
                     {swapped ? (
                         <>
@@ -60,7 +65,7 @@ export default function Valentine() {
             <>
                 <h1>See you Thursday!!❤️🎉</h1>
                 <Image
-                    src="/rio-rio-movie.gif"
+                    src="valentines/rio-rio-movie.gif"
                     alt="test"
                     width={800}
                     height={300}
