@@ -29,3 +29,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.img-wrap {
+    position: relative;
+    width: 50vw;
+    min-width: 300px; /* your min width */
+    max-width: 600px; /* optional, but smart */
+    aspect-ratio: 4 / 3; /* prevents layout shift */
+}
